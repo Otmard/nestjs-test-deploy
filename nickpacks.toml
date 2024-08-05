@@ -1,0 +1,24 @@
+# Información general del paquete
+[package]
+name = "my-nodejs-app"
+version = "1.0.0"
+description = "Aplicación Node.js desplegada con Coolify."
+authors = ["Tu Nombre <tucorreo@example.com>"]
+
+# Configuración del proyecto
+[project]
+type = "nodejs"
+entrypoint = "src/index.js"
+
+# Configuración de compilación
+[build]
+command = "npm install"
+
+# Configuración de servidor
+[server]
+host = "0.0.0.0"
+port = 3000
+
+# Configuración adicional
+[extra]
+enableFeatureX = true
